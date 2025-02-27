@@ -60,7 +60,7 @@ def get_user_input():
     return passenger_data  # Retourne les données sous forme de tableau
 
 if __name__ == "__main__":
-    train_data_path = r"C:\Users\MG KALI\Desktop\presentation machine learning\KNN Sklearn\tita.csv"  # Chemin vers le fichier de données d'entraînement
+    train_data_path = r"\Titanic-Survivor-Prediction\Data\tita_knn_sklearn.csv"  # Chemin vers le fichier de données d'entraînement
     train_data = pd.read_csv(train_data_path)  # Chargement des données dans un DataFrame
 
     # Vérifie si des valeurs manquantes sont présentes et les remplit avec la médiane

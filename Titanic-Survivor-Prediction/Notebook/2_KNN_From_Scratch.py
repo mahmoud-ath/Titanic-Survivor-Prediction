@@ -249,7 +249,7 @@ def visualize_predicted_passenger(X_train, y_train, passenger_data, feature_name
 # Étape 10 : Fonction principale (Main Function)
 if __name__ == "__main__":
     # Charger et prétraiter les données (Preprocessing)
-    train_data_path = r"C:\Users\MG KALI\Desktop\License AD\Machine Learning\Groupe 5-Titanic Survivor Prediction\Using KNN\KNN From Scratch\titanic_cleaned_updated.csv"  # Chemin vers les données
+    train_data_path = r"\Titanic-Survivor-Prediction\Data\titanic_data_scratch.csv"  # Chemin vers les données
     train_data = pd.read_csv(train_data_path)
     X, y, feature_names = preprocess_data(train_data)  # Obtenir les noms des colonnes (Column Names)
 
